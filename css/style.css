@@ -76,7 +76,7 @@ main h1{
     gap: 150px;
     height: 450px;
     justify-content: space-between;
-    text-align: center;
+    text-align: center; 
 }
 
 .imginmortales{
