@@ -44,7 +44,7 @@ main h1{
 .bardo{
     display: flex;
     flex-direction: row-reverse;
-    padding-right: 400px;
+    padding-right: 300px;
 }
 /* index */
 .albums-barderos{
@@ -72,20 +72,27 @@ main h1{
 }
 
 .musik{
-    display: flex;
-    gap: 150px;
+    display: grid;
+    grid-template-columns: repeat(5, 18.75rem);
+    gap: 48px;
+    
+    /* gap: 150px;
     height: 450px;
     justify-content: space-between;
-    text-align: center; 
+    text-align: center;  */
 }
 
 .imginmortales{
-    display: flex;
+    display: grid;
+    grid-template-columns: 200px;
+    gap: 48px;
+    
+    /* display: flex;
     flex-wrap: wrap-reverse;
     width: 1080px;
     height: 500px;
     justify-content: center;
-    margin-left: 200px;
+    margin-left: 200px; */
     
 
 }
@@ -154,18 +161,16 @@ main section div ul {
 
 /* homer */
 .discos-H{
-    display: flex;
-    gap: 50px;
-    height: 450px;
-    justify-content: space-around;
-    
+    display: grid;
+    grid-template-columns: repeat(4, 18.75rem);
+    gap: 80px;
 }
 .music-card-homer {
     width: 500px;
     height: 500px;
     display: grid;
     border: 1px solid grey;
-    overflow: hidden;
+    overflow-x: hidden;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .music-header {
@@ -220,17 +225,16 @@ main section div ul {
 
 /* Cro */
 .discos-Cro1{
-    display: flex;
-    gap: 50px;
-    height: 450px;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(5, 18.75rem);
+    grid-template-rows: 500px;
+    gap: 80px;
 }
 .discos-Cro2{
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-    height: 450px;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(5, 18.75rem);
+    grid-template-rows: 500px;
+    gap: 48px;
 }
 /* Cro */
 
