@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    header{
+    background-image: url(https://i.postimg.cc/Kc9z0gKB/Bardero-Bardero.gif);
+    width: 100%;
+    height: 190px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    padding: 4px ;
+    button{
+        background-color: whitesmoke;
+    }
+}
+.navbar{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    text-decoration-color: whitesmoke;
+    list-style: none;
+    gap: 1.25rem;
+    color: white;
+    font-size: 20px;
+    }
+
+    main{
+        width: 100%;
+        height: 1080px;
+        color: white;
+        h1{
+            text-align: center;
+        }
+        .bardo{
+            display: flex;
+            flex-direction: row-reverse;
+            padding-right: 300px;
+        }
+        .imginmortales{
+            display: grid;
+            grid-template-columns: 200px;
+            gap: 48px;
+        }    
+    }
+
+    Footer{
+        background-color: lightslategray;
+        width: 100%;
+        height:100px;
+        font-size: 20px;
+        .contact{
+            display: flex;
+            color: white;
+            flex-direction: row-reverse;
+        }
+        .redes-sociales{
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            gap: .3125rem;
+        }
+    }
+.index{
+    background-image: url(https://i.postimg.cc/tJ8BX4gk/pag1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1080px;
+}
+.discografia{
+    background-image: url(https://i.postimg.cc/G3j3HTP6/index.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 1080px;
+    .musik-card {
+        width: 400px;
+        height: 450px;
+        border: 1px solid grey;
+        overflow: hidden;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+    .musik{
+        display: grid;
+        grid-template-columns: repeat(5, 18.75rem);
+        gap: 48px;
+    }
+    .music-header {
+        background: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+    }
+    .music-content {
+        height: 600px;
+        overflow-y: scroll;
+        padding: 10px;
+    }
+}
+.homer{
+    background-image: url(https://i.postimg.cc/Xv2cjYH5/h-pag2.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 1080px;
+    .discos-H{
+        display: grid;
+        grid-template-columns: repeat(4, 18.75rem);
+        gap: 80px;
+    }
+    .music-card-homer {
+        width: 500px;
+        height: 500px;
+        display: grid;
+        border: 1px solid grey;
+        overflow-x: hidden;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+    .musik-card {
+        width: 400px;
+        height: 450px;
+        border: 1px solid grey;
+        overflow: hidden;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+    .musik{
+        display: grid;
+        grid-template-columns: repeat(5, 18.75rem);
+        gap: 48px;
+    }
+    .music-header {
+        background: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+    }
+    .music-content {
+        height: 600px;
+        overflow-y: scroll;
+        padding: 10px;
+    }
+}
+.cro{
+    background-image: url(https://i.postimg.cc/ZK9PTmpB/cro-pag3.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 1080px;
+    .discos-Cro1{
+        display: grid;
+        grid-template-columns: repeat(5, 18.75rem);
+        grid-template-rows: 500px;
+        gap: 80px;
+    }
+    .discos-Cro2{
+        display: grid;
+        grid-template-columns: repeat(5, 18.75rem);
+        grid-template-rows: 500px;
+        gap: 48px;
+    }
+    .musik-card {
+        width: 400px;
+        height: 450px;
+        border: 1px solid grey;
+        overflow: hidden;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+    .musik{
+        display: grid;
+        grid-template-columns: repeat(5, 18.75rem);
+        gap: 48px;
+    }
+    .music-header {
+        background: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+    }
+    .music-content {
+        height: 600px;
+        overflow-y: scroll;
+        padding: 10px;
+    }
+    
+}
+.bio{
+    background-image: url(https://i.postimg.cc/d1xBBVGF/Diseno-sin-titulo-85.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 1080px;
+    h1{
+        color: black;
+    }
+    .biohomer{
+        justify-content: space-around;
+        display: flex;
+        flex-direction: row;
+        gap: 6.25rem;
+        width: 1920px;
+        height: 200px;
+        border: .0625rem solid;
+        text-align: center;
+    }
+    .biocro{
+        justify-content: space-around;
+        display: flex;
+        flex-direction: row;
+        gap: 6.25rem;
+        width: 1920px;
+        height: 200px;
+        border: .0625rem solid;
+        text-align: center;
+    }
+}
