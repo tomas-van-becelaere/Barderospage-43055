@@ -1,3 +1,5 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
 .bio{
     background-image: url(https://i.postimg.cc/d1xBBVGF/Diseno-sin-titulo-85.png);
     background-repeat: no-repeat;
@@ -7,23 +9,23 @@
     h1{
         color: black;
     }
-    .biohomer{
+    .card-h{
         justify-content: space-around;
         display: flex;
         flex-direction: row;
         gap: 6.25rem;
-        width: 1920px;
-        height: 200px;
+        // width: 1920px;
+        // height: 200px;
         border: .0625rem solid;
         text-align: center;
     }
-    .biocro{
+    .card-c{
         justify-content: space-around;
         display: flex;
         flex-direction: row;
         gap: 6.25rem;
-        width: 1920px;
-        height: 200px;
+        // width: 1920px;
+        // height: 200px;
         border: .0625rem solid;
         text-align: center;
     }
