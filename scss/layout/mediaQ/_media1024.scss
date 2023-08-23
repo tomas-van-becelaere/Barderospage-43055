@@ -1,7 +1,6 @@
 @media (max-width:1024px){
     header{
         width: 100%;
-    
     }
     .index{
         width: 100%;
@@ -15,6 +14,9 @@
         height: 300px;
     }
     .discografia{
+        display: grid;
+        grid-template-columns: repeat(5, 18.75rem)
+        grid-template-rows: repeat(2,500px);
         width: 100%;
     }
     .musik{

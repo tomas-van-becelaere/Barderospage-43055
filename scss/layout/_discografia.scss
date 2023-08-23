@@ -14,6 +14,7 @@
     .musik{
         display: grid;
         grid-template-columns: repeat(5, 18.75rem);
+        grid-template-rows: repeat(2,500px);
         gap: 48px;
     }
     .music-header {
