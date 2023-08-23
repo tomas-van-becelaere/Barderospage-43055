@@ -1,0 +1,57 @@
+@media (max-width:425px){
+    header{
+        width: 100%;
+    }
+    main{
+        width: 100%;
+        align-items: center;
+    }
+    footer{
+        width: 100%;
+    }
+    .index{
+    width: 425px;
+}
+.bardo{
+    margin-left: 150px;
+}
+.imginmortales{
+    padding-right: 300px;
+    margin: auto;
+    margin-left: 70px;
+}
+    .discografia{
+    width: 425px;
+}
+.musik{
+    margin: auto;
+        width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    
+}
+    .homer{
+    width: 425px;
+}
+    .cro{
+    width: 425px;
+}
+    .bio{
+    width: 425px;
+}
+    .card-h{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 300px;
+        width: 100%;
+        padding-left: 87px;
+    }
+    .card-c{
+        display: flex;
+        flex-direction: column;
+        margin-top: 400px;
+        width: 100%;
+        padding-right: 100px;
+}
+}

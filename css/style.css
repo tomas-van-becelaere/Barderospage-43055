@@ -1,3 +1,5 @@
+/**variables y mixins*/
+/**cuerpo*/
 * {
   margin: 0;
   padding: 0;
@@ -48,26 +50,7 @@ main .imginmortales {
   grid-template-columns: 200px;
   gap: 48px;
 }
-
-Footer {
-  background-color: lightslategray;
-  width: 100%;
-  height: 100px;
-  font-size: 20px;
-}
-Footer .contact {
-  display: flex;
-  color: white;
-  flex-direction: row-reverse;
-}
-Footer .redes-sociales {
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-  gap: 0.3125rem;
-}
-
-.index {
+main .index {
   background-image: url(https://i.postimg.cc/tJ8BX4gk/pag1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -222,6 +205,203 @@ Footer .redes-sociales {
   height: 200px;
   border: 0.0625rem solid;
   text-align: center;
+}
+
+Footer {
+  background-color: lightslategray;
+  width: 100%;
+  height: 100px;
+  font-size: 20px;
+}
+Footer .contact {
+  display: flex;
+  color: white;
+  flex-direction: row-reverse;
+}
+Footer .redes-sociales {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  gap: 0.3125rem;
+}
+
+/**mediaquerrys*/
+@media (max-width: 1024px) {
+  header {
+    width: 100%;
+  }
+  .index {
+    width: 100%;
+  }
+  .bardo {
+    padding-right: 250px;
+  }
+  .imginmortales {
+    width: 600px;
+    height: 300px;
+  }
+  .discografia {
+    width: 100%;
+  }
+  .musik {
+    display: flex;
+    width: 100%;
+    height: 50px;
+  }
+  .homer {
+    width: 100%;
+  }
+  .cro {
+    width: 100%;
+  }
+  .bio {
+    width: 1024px;
+    margin: auto;
+  }
+}
+@media (max-width: 768px) {
+  header {
+    width: 100%;
+    background-image: url(https://i.postimg.cc/0ywgLQCt/banner420.jpg);
+  }
+  .bardo {
+    padding-left: 220px;
+  }
+  .imginmortales {
+    padding-right: 200px;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 200px;
+  }
+  .index {
+    width: 768px;
+  }
+  .discografia {
+    width: 768px;
+  }
+  .musik {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+  }
+  .homer {
+    width: 768px;
+  }
+  .cro {
+    width: 768px;
+  }
+  .bio {
+    width: 768px;
+  }
+}
+@media (max-width: 425px) {
+  header {
+    width: 100%;
+  }
+  main {
+    width: 100%;
+    align-items: center;
+  }
+  footer {
+    width: 100%;
+  }
+  .index {
+    width: 425px;
+  }
+  .bardo {
+    margin-left: 150px;
+  }
+  .imginmortales {
+    padding-right: 300px;
+    margin: auto;
+    margin-left: 70px;
+  }
+  .discografia {
+    width: 425px;
+  }
+  .musik {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+  }
+  .homer {
+    width: 425px;
+  }
+  .cro {
+    width: 425px;
+  }
+  .bio {
+    width: 425px;
+  }
+  .card-h {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 300px;
+    width: 100%;
+    padding-left: 87px;
+  }
+  .card-c {
+    display: flex;
+    flex-direction: column;
+    margin-top: 400px;
+    width: 100%;
+    padding-right: 100px;
+  }
+}
+@media (max-width: 320px) {
+  header {
+    width: 320px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  main {
+    width: 320px;
+    align-items: center;
+  }
+  footer {
+    width: 320px;
+  }
+  .index {
+    width: 320px;
+  }
+  .bardo {
+    margin: auto;
+    padding-right: 10px;
+  }
+  .imginmortales {
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 270px;
+  }
+  .discografia {
+    width: 320px;
+  }
+  .homer {
+    width: 320px;
+  }
+  .cro {
+    width: 320px;
+  }
+  .bio {
+    width: 320px;
+  }
+  .card-h {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 300px;
+    width: 100%;
+    padding-left: 130px;
+  }
+  .card-c {
+    display: flex;
+    flex-direction: column;
+    margin-top: 400px;
+    width: 100%;
+    padding-right: 150px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

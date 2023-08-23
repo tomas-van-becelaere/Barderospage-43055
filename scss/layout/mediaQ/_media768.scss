@@ -1,0 +1,38 @@
+
+@media (max-width:768px){
+    header{
+        width: 100%;
+        background-image: url(https://i.postimg.cc/0ywgLQCt/banner420.jpg);
+    }
+    .bardo{
+        padding-left: 220px;
+        
+    }
+    .imginmortales{
+        padding-right: 200px;
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+        height: 200px;
+}
+    .index{
+    width: 768px;
+}
+    .discografia{
+    width: 768px;
+}
+.musik{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+    .homer{
+    width: 768px;
+}
+    .cro{
+    width: 768px;
+}
+    .bio{
+    width: 768px;
+}
+}

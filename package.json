@@ -1,11 +1,11 @@
 {
-  "name": "2da-pre-entrega---copia",
+  "name": "3ra-pre-entrega",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
-  "description": ""
+  "license": "ISC"
 }
