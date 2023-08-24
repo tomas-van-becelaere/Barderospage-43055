@@ -1,9 +1,15 @@
 @media (max-width:1024px){
     header{
         width: 100%;
+        height: 140px;
     }
+    
     .index{
         width: 100%;
+    }
+    .footer{
+        width: 100%;
+        height: 150px;
     }
     .bardo{
     padding-right: 250px;
@@ -34,4 +40,9 @@
         width: 1024px;
         margin: auto;
     }
+    .disco-cro1{
+        display: grid;
+        grid-template-columns: repeat(3,);
+    }
+    
 }
