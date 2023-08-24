@@ -1,28 +1,22 @@
-/**variables y mixins*/
+// // variables y mixins
+@import "./base/reset";
 @import "./utilities/variables";
 @import "./utilities/mixins";
 
-/**cuerpo*/
-@import "./base/reset";
-@import "./layout/header";
+
+// todo lo correspondiente al codigo
 @import "./layout/index";
+@import "./layout/header";
+@import "./layout/footer";
 @import "./layout/discografia";
 @import "./layout/homer";
 @import "./layout/cro";
 @import "./layout/bio";
-@import "./layout/footer";
 
 
-
-
-
-
-
-
-
-
-/**mediaquerrys*/
+// mediaquerrys
 @import "./layout/mediaQ/media1024";
 @import "./layout/mediaQ/media768";
 @import "./layout/mediaQ/media425";
 @import "./layout/mediaQ/media320";
+
