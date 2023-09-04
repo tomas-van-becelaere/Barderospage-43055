@@ -21,10 +21,7 @@
     }
     .discografia{
         display: grid;
-        grid-template-columns: repeat(5, 18.75rem)
-        grid-template-rows: repeat(2,500px);
-        width: 100%;
-    }
+        }
     .musik{
         display: flex;
         width: 100%;

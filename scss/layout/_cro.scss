@@ -1,4 +1,5 @@
 .cro{
+    color: white;
     background-image: url(https://i.postimg.cc/ZK9PTmpB/cro-pag3.jpg);
     background-repeat: no-repeat;
     background-size:cover;
@@ -12,13 +13,13 @@
         display: grid;
         grid-template-columns: repeat(5, 18.75rem);
         grid-template-rows: 500px;
-        gap: 80px;
+
     }
     .discos-Cro2{
         display: grid;
         grid-template-columns: repeat(5, 18.75rem);
         grid-template-rows: 500px;
-        gap: 48px;
+    
     }
     .musik-card {
         width: 400px;
@@ -30,7 +31,7 @@
     .musik{
         display: grid;
         grid-template-columns: repeat(5, 18.75rem);
-        gap: 48px;
+    
     }
     .music-header {
         background: #333;
