@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: fuentebarderos;
-  src: url("mexican-pride.ttf");
+  src: url("./mexican-pride.ttf");
 }
 .index {
   font-family: fuenteBarderos;
@@ -50,22 +50,21 @@ header {
 }
 
 Footer {
-  font-family: fuentebarderos;
+  font-family: fuenteBarderos;
   background-color: lightslategray;
   width: 100%;
-  height: 100px;
   font-size: 20px;
 }
 Footer .contact {
   display: flex;
   color: white;
   flex-direction: row-reverse;
+  flex-wrap: nowrap;
 }
 Footer .redes-sociales {
   display: flex;
   justify-content: space-around;
   text-align: center;
-  gap: 0.3125rem;
 }
 
 .discografia {
@@ -75,19 +74,27 @@ Footer .redes-sociales {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 1080px;
 }
 .discografia .musik-card {
-  width: 400px;
-  height: 450px;
+  width: 300px;
+  height: 500px;
   border: 1px solid grey;
   overflow: hidden;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .discografia .musik {
+  justify-content: space-between;
   display: grid;
-  grid-template-columns: repeat(5, 18.75rem);
-  grid-template-rows: 500px 500px;
+  grid-template-columns: repeat(3, 320px);
+}
+.discografia .musik .pure-drug {
+  padding-left: 20px;
+}
+.discografia .musik-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 420px);
+  width: 420px;
+  padding-left: 270px;
 }
 .discografia .music-header {
   background: #333;
@@ -103,83 +110,94 @@ Footer .redes-sociales {
 
 .homer {
   font-family: fuenteBarderos;
-  color: white;
+  color: green;
   background-image: url(https://i.postimg.cc/Xv2cjYH5/h-pag2.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 1080px;
+}
+.homer .barderos {
+  padding-top: 20px;
+  font-family: fuenteBarderos;
+  font-size: 60px;
+  padding-left: 450px;
 }
 .homer .discos-H {
   display: grid;
-  grid-template-columns: repeat(4, 18.75rem);
-  gap: 80px;
+  grid-template-columns: repeat(2, 220px);
+  justify-content: space-between;
+  padding-left: 5px;
+  padding-right: 25px;
 }
-.homer .music-card-homer {
-  width: 500px;
+.homer .discos-H-2 {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(2, 230px);
+  justify-content: center;
+}
+.homer .discos-H-2 .music-content {
+  height: 420px;
+  overflow-y: scroll;
+  padding: 10px;
+}
+.homer .discos-H-2 .music-card-homer {
+  width: 420px;
   height: 500px;
   display: grid;
-  border: 1px solid grey;
+  border: 1px solid green;
   overflow-x: hidden;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
-.homer .musik-card {
-  width: 400px;
-  height: 450px;
-  border: 1px solid grey;
-  overflow: hidden;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-.homer .musik {
-  display: grid;
-  grid-template-columns: repeat(5, 18.75rem);
-  gap: 48px;
-}
-.homer .music-header {
+.homer .discos-H-2 .music-header {
   background: #333;
   color: #fff;
   padding: 10px;
   text-align: center;
 }
-.homer .music-content {
+.homer .discos-H-2 .music-content {
   height: 600px;
   overflow-y: scroll;
   padding: 10px;
 }
+.homer .discos-H-2 .el-mundo-es-tuyo {
+  display: grid;
+}
+.homer .discos-H-2 .footer {
+  width: 100%;
+}
 
 .cro {
-  font-family: fuenteBarderos;
+  font-family: fuentebarderos;
   color: white;
   background-image: url(https://i.postimg.cc/ZK9PTmpB/cro-pag3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 1080px;
 }
 .cro .footer {
   width: 100%;
-  height: 150px;
 }
 .cro .discos-Cro1 {
+  justify-content: space-evenly;
   display: grid;
-  grid-template-columns: repeat(5, 18.75rem);
-  grid-template-rows: 500px;
+  grid-template-columns: repeat(3, 350px);
 }
 .cro .discos-Cro2 {
   display: grid;
-  grid-template-columns: repeat(5, 18.75rem);
-  grid-template-rows: 500px;
+  grid-template-columns: repeat(4, 300px);
+  justify-content: space-evenly;
+}
+.cro .discos-Cro3 {
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  justify-content: space-evenly;
 }
 .cro .musik-card {
-  width: 400px;
-  height: 450px;
+  width: 380px;
+  height: 420px;
   border: 1px solid grey;
-  overflow: hidden;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-.cro .musik {
-  display: grid;
-  grid-template-columns: repeat(5, 18.75rem);
+  overflow-y: scroll;
+  box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .cro .music-header {
   background: #333;
@@ -188,39 +206,31 @@ Footer .redes-sociales {
   text-align: center;
 }
 .cro .music-content {
-  height: 600px;
   overflow-y: scroll;
-  padding: 10px;
 }
 
 .bio {
   font-family: fuenteBarderos;
   background-color: black;
+  background-image: url(https://i.postimg.cc/d1xBBVGF/Diseno-sin-titulo-85.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   height: 1080px;
 }
 .bio h1 {
-  color: white;
+  color: black;
 }
-.bio .card-h {
-  justify-content: space-around;
+.bio .biografia {
+  padding-left: 50px;
+  padding-top: 150px;
   display: flex;
-  flex-direction: row;
-  gap: 6.25rem;
-  width: 1920px;
-  height: 100vh;
-  border: 0.0625rem solid;
-  text-align: center;
+  width: 100%;
+  max-height: 1000px;
 }
-.bio .card-c {
-  justify-content: space-around;
-  display: flex;
-  flex-direction: row;
-  gap: 6.25rem;
-  width: 1920px;
-  height: 100vh;
-  border: 0.0625rem solid;
-  text-align: center;
+.bio .biografia h5 {
+  padding-bottom: 420px;
+  color: green;
 }
 
 @media (max-width: 1024px) {

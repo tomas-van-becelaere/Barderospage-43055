@@ -1,32 +1,24 @@
 .bio{
     font-family: fuenteBarderos;
     background-color: black;
-    // background-image: url(https://i.postimg.cc/d1xBBVGF/Diseno-sin-titulo-85.png);
-    // background-repeat: no-repeat;
-    // background-size:cover;
+    background-image: url(https://i.postimg.cc/d1xBBVGF/Diseno-sin-titulo-85.png);
+    background-repeat: no-repeat;
+    background-size:cover;
     width: 100%;
     height: 1080px;
     h1{
-        color: white;
+        color: black;
     }
-    .card-h{
-        justify-content: space-around;
+    .biografia{
+        
+        padding-left: 50px;
+        padding-top: 150px;
         display: flex;
-        flex-direction: row;
-        gap: 6.25rem;
-        width: 1920px;
-        height: 100vh;
-        border: .0625rem solid;
-        text-align: center;
-    }
-    .card-c{
-        justify-content: space-around;
-        display: flex;
-        flex-direction: row;
-        gap: 6.25rem;
-        width: 1920px;
-        height: 100vh;
-        border: .0625rem solid;
-        text-align: center;
+        width: 100%;
+        max-height: 1000px;
+        h5{
+            padding-bottom: 420px;
+            color: green;
+        }
     }
 }

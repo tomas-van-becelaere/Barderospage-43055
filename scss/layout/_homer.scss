@@ -1,45 +1,60 @@
 .homer{
     font-family: fuenteBarderos;
-    color: white;
+    color: green;
     background-image: url(https://i.postimg.cc/Xv2cjYH5/h-pag2.png);
     background-repeat: no-repeat;
     background-size:cover;
     width: 100%;
-    height: 1080px;
+    .barderos{
+        padding-top: 20px;
+        font-family: fuenteBarderos;
+        font-size: 60px;
+        padding-left: 450px;
+    }
     .discos-H{
         display: grid;
-        grid-template-columns: repeat(4, 18.75rem);
-        gap: 80px;
+        grid-template-columns: repeat(2, 220px);
+        justify-content: space-between;
+        padding-left: 5px;
+        padding-right: 25px;
+
     }
-    .music-card-homer {
-        width: 500px;
-        height: 500px;
+    .discos-H-2{
         display: grid;
-        border: 1px solid grey;
-        overflow-x: hidden;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    }
-    .musik-card {
-        width: 400px;
-        height: 450px;
-        border: 1px solid grey;
-        overflow: hidden;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    }
-    .musik{
-        display: grid;
-        grid-template-columns: repeat(5, 18.75rem);
-        gap: 48px;
-    }
-    .music-header {
-        background: #333;
-        color: #fff;
-        padding: 10px;
-        text-align: center;
-    }
-    .music-content {
-        height: 600px;
-        overflow-y: scroll;
-        padding: 10px;
+        gap: 15px;
+        grid-template-columns: repeat(2, 230px);
+        justify-content: center;
+    
+        .music-content {
+            height:420px;
+            overflow-y: scroll;
+            padding: 10px;
+        };
+        .music-card-homer {
+            width: 420px;
+            height: 500px;
+            display: grid;
+            border: 1px solid green;
+            overflow-x: hidden;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+        .music-header {
+            background: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .music-content {
+            height: 600px;
+            overflow-y: scroll;
+            padding: 10px;
+        }
+        .el-mundo-es-tuyo{
+            display: grid;
+        }
+
+        .footer{
+            width: 100%;
+        }
     }
 }
