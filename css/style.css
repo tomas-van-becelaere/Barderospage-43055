@@ -9,7 +9,7 @@
   src: url("./mexican-pride.ttf");
 }
 .index {
-  font-family: fuenteBarderos;
+  font-family: fuentebarderos;
   background-image: url(https://i.postimg.cc/tJ8BX4gk/pag1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -38,7 +38,7 @@ h1 {
 }
 
 header {
-  font-family: fuenteBarderos;
+  font-family: fuentebarderos;
   background-image: url(https://i.postimg.cc/Kc9z0gKB/Bardero-Bardero.gif);
   height: 50vh;
   background-size: cover;
@@ -50,7 +50,7 @@ header {
 }
 
 Footer {
-  font-family: fuenteBarderos;
+  font-family: fuentebarderos;
   background-color: lightslategray;
   width: 100%;
   font-size: 20px;
@@ -68,7 +68,7 @@ Footer .redes-sociales {
 }
 
 .discografia {
-  font-family: fuenteBarderos;
+  font-family: fuentebarderos;
   color: white;
   background-image: url(https://i.postimg.cc/G3j3HTP6/index.jpg);
   background-repeat: no-repeat;
@@ -109,7 +109,7 @@ Footer .redes-sociales {
 }
 
 .homer {
-  font-family: fuenteBarderos;
+  font-family: fuentebarderos;
   color: green;
   background-image: url(https://i.postimg.cc/Xv2cjYH5/h-pag2.png);
   background-repeat: no-repeat;
@@ -118,7 +118,7 @@ Footer .redes-sociales {
 }
 .homer .barderos {
   padding-top: 20px;
-  font-family: fuenteBarderos;
+  font-family: fuentebarderos;
   font-size: 60px;
   padding-left: 450px;
 }
@@ -174,9 +174,6 @@ Footer .redes-sociales {
   background-size: cover;
   width: 100%;
 }
-.cro .footer {
-  width: 100%;
-}
 .cro .discos-Cro1 {
   justify-content: space-evenly;
   display: grid;
@@ -208,9 +205,12 @@ Footer .redes-sociales {
 .cro .music-content {
   overflow-y: scroll;
 }
+.cro .footer {
+  width: 100%;
+}
 
 .bio {
-  font-family: fuenteBarderos;
+  font-family: fuentebarderos;
   background-color: black;
   background-image: url(https://i.postimg.cc/d1xBBVGF/Diseno-sin-titulo-85.png);
   background-repeat: no-repeat;

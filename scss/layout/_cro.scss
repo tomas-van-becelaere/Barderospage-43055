@@ -5,20 +5,15 @@
     background-repeat: no-repeat;
     background-size:cover;
     width: 100%;
-    .footer{
-        width: 100%;
-    }
     .discos-Cro1{
         justify-content: space-evenly;
         display: grid;
         grid-template-columns: repeat(3, 350px);
-
     }
     .discos-Cro2{
         display: grid;
         grid-template-columns: repeat(4, 300px);
         justify-content: space-evenly;
-    
     }
     .discos-Cro3{
         display: grid;
@@ -32,13 +27,16 @@
         overflow-y:scroll;
         box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.2);
     }
-        .music-header {
-            background: #333;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
-        .music-content {
-            overflow-y: scroll;
-        }
+    .music-header {
+        background: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+    }
+    .music-content {
+        overflow-y: scroll;
+    }
+    .footer{
+        width: 100%;
+    }
 }
