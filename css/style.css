@@ -219,7 +219,7 @@ Footer .redes-sociales {
   height: 1080px;
 }
 .bio h1 {
-  color: black;
+  color: red;
 }
 .bio .biografia {
   padding-left: 50px;
@@ -231,6 +231,13 @@ Footer .redes-sociales {
 .bio .biografia h5 {
   padding-bottom: 420px;
   color: green;
+}
+.bio .biografia .barderosH5 {
+  color: gold;
+  padding-bottom: 200px;
+}
+.bio .biografia p.bardeross {
+  color: gold;
 }
 
 @media (max-width: 1024px) {
