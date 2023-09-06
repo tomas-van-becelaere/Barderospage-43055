@@ -21,12 +21,12 @@
 .index .bardo {
   display: grid;
   justify-content: right;
+  min-width: 100px;
 }
 .index .imginmortales {
   display: grid;
-  grid-template-rows: 300px;
   justify-content: right;
-  align-items: end;
+  min-width: 100px;
 }
 
 .footer {
