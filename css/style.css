@@ -79,10 +79,10 @@ Footer .redes-sociales {
   text-align: center;
 }
 .discografia .musik-card {
-  width: 270px;
+  width: 300px;
   height: 500px;
   border: 1px solid grey;
-  overflow: hidden;
+  overflow-x: hidden;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .discografia .musik-card .music-header {
@@ -93,7 +93,6 @@ Footer .redes-sociales {
 }
 .discografia .musik-card .music-content {
   height: 600px;
-  overflow-y: scroll;
   padding: 10px;
 }
 .discografia .musik {
@@ -111,7 +110,7 @@ Footer .redes-sociales {
 }
 .discografia .musik-3 {
   display: grid;
-  grid-template-columns: repeat(2, 270px);
+  grid-template-columns: repeat(2, 300px);
   justify-content: space-between;
 }
 
@@ -149,12 +148,11 @@ Footer .redes-sociales {
   justify-content: space-between;
 }
 .homer .music-card-homer {
-  width: 280px;
+  width: 300px;
   display: grid;
   justify-content: right;
   border: 1px solid green;
   overflow-x: hidden;
-  overflow-y: scroll;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .homer .music-card-homer .music-header {
@@ -165,7 +163,6 @@ Footer .redes-sociales {
 }
 .homer .music-card-homer .music-content {
   height: 600px;
-  overflow-y: scroll;
   padding: 10px;
 }
 
@@ -203,16 +200,15 @@ Footer .redes-sociales {
 }
 .cro .discos-Cro5 {
   display: grid;
-  grid-template-columns: repeat(2, 280px);
+  grid-template-columns: repeat(2, 300px);
   justify-content: space-between;
 }
 .cro .musik-card {
-  width: 280px;
+  width: 300px;
   height: 500px;
   display: grid;
   border: 1px solid green;
   overflow-x: hidden;
-  overflow-y: scroll;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .cro .musik-card .music-header {
@@ -223,7 +219,6 @@ Footer .redes-sociales {
 }
 .cro .musik-card .music-content {
   height: 600px;
-  overflow-y: scroll;
   padding: 10px;
 }
 
