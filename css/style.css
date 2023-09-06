@@ -15,21 +15,18 @@
   background-size: cover;
   color: white;
 }
-
-h1 {
+.index h1 {
   text-align: center;
 }
-
-.bardo {
-  display: flex;
-  flex-direction: row-reverse;
-  padding-right: 300px;
-}
-
-.imginmortales {
+.index .bardo {
   display: grid;
-  grid-template-columns: 200px;
-  gap: 48px;
+  justify-content: right;
+}
+.index .imginmortales {
+  display: grid;
+  grid-template-rows: 300px;
+  justify-content: right;
+  align-items: end;
 }
 
 .footer {
@@ -40,7 +37,7 @@ h1 {
 header {
   font-family: fuentebarderos;
   background-image: url(https://i.postimg.cc/Kc9z0gKB/Bardero-Bardero.gif);
-  height: 50vh;
+  height: 20vh;
   background-size: cover;
   color: white;
 }
@@ -60,8 +57,10 @@ Footer .contact {
   color: white;
   flex-direction: row-reverse;
   flex-wrap: nowrap;
+  padding-top: 35px;
 }
 Footer .redes-sociales {
+  padding-top: 20px;
   display: flex;
   justify-content: space-around;
   text-align: center;
@@ -75,37 +74,45 @@ Footer .redes-sociales {
   background-size: cover;
   width: 100%;
 }
+.discografia h1 {
+  font-weight: bold;
+  text-align: center;
+}
 .discografia .musik-card {
-  width: 300px;
+  width: 270px;
   height: 500px;
   border: 1px solid grey;
   overflow: hidden;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
+.discografia .musik-card .music-header {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+.discografia .musik-card .music-content {
+  height: 600px;
+  overflow-y: scroll;
+  padding: 10px;
+}
 .discografia .musik {
-  justify-content: space-between;
   display: grid;
-  grid-template-columns: repeat(3, 320px);
+  justify-content: space-between;
+  grid-template-columns: repeat(2, 270px);
 }
 .discografia .musik .pure-drug {
   padding-left: 20px;
 }
 .discografia .musik-2 {
   display: grid;
-  grid-template-columns: repeat(2, 420px);
-  width: 420px;
-  padding-left: 270px;
+  grid-template-columns: repeat(1, 270px);
+  justify-content: center;
 }
-.discografia .music-header {
-  background: #333;
-  color: #fff;
-  padding: 10px;
-  text-align: center;
-}
-.discografia .music-content {
-  height: 600px;
-  overflow-y: scroll;
-  padding: 10px;
+.discografia .musik-3 {
+  display: grid;
+  grid-template-columns: repeat(2, 270px);
+  justify-content: space-between;
 }
 
 .homer {
@@ -116,54 +123,50 @@ Footer .redes-sociales {
   background-size: cover;
   width: 100%;
 }
-.homer .barderos {
-  padding-top: 20px;
-  font-family: fuentebarderos;
-  font-size: 60px;
-  padding-left: 450px;
+.homer h1 {
+  font-weight: bold;
+  text-align: center;
 }
-.homer .discos-H {
+.homer .video-h {
   display: grid;
-  grid-template-columns: repeat(2, 220px);
-  justify-content: space-between;
+  justify-content: right;
+}
+.homer .discos-H-1 {
+  display: grid;
+  grid-template-columns: 270px;
   padding-left: 5px;
   padding-right: 25px;
 }
 .homer .discos-H-2 {
   display: grid;
   gap: 15px;
-  grid-template-columns: repeat(2, 230px);
-  justify-content: center;
+  grid-template-columns: 270px;
+  justify-content: right;
 }
-.homer .discos-H-2 .music-content {
-  height: 420px;
-  overflow-y: scroll;
-  padding: 10px;
-}
-.homer .discos-H-2 .music-card-homer {
-  width: 420px;
-  height: 500px;
+.homer .discos-H-3 {
   display: grid;
+  grid-template-columns: 270px;
+  justify-content: space-between;
+}
+.homer .music-card-homer {
+  width: 280px;
+  display: grid;
+  justify-content: right;
   border: 1px solid green;
   overflow-x: hidden;
+  overflow-y: scroll;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
-.homer .discos-H-2 .music-header {
+.homer .music-card-homer .music-header {
   background: #333;
   color: #fff;
   padding: 10px;
   text-align: center;
 }
-.homer .discos-H-2 .music-content {
+.homer .music-card-homer .music-content {
   height: 600px;
   overflow-y: scroll;
   padding: 10px;
-}
-.homer .discos-H-2 .el-mundo-es-tuyo {
-  display: grid;
-}
-.homer .discos-H-2 .footer {
-  width: 100%;
 }
 
 .cro {
@@ -174,39 +177,54 @@ Footer .redes-sociales {
   background-size: cover;
   width: 100%;
 }
+.cro h1 {
+  font-weight: bold;
+  text-align: center;
+}
 .cro .discos-Cro1 {
-  justify-content: space-evenly;
+  justify-content: space-between;
   display: grid;
-  grid-template-columns: repeat(3, 350px);
+  grid-template-columns: repeat(2, 270px);
 }
 .cro .discos-Cro2 {
   display: grid;
-  grid-template-columns: repeat(4, 300px);
-  justify-content: space-evenly;
+  grid-template-columns: repeat(2, 270px);
+  justify-content: space-between;
 }
 .cro .discos-Cro3 {
   display: grid;
-  grid-template-columns: repeat(3, 350px);
-  justify-content: space-evenly;
+  grid-template-columns: repeat(2, 270px);
+  justify-content: space-between;
+}
+.cro .discos-Cro4 {
+  display: grid;
+  grid-template-columns: repeat(2, 270px);
+  justify-content: space-between;
+}
+.cro .discos-Cro5 {
+  display: grid;
+  grid-template-columns: repeat(2, 280px);
+  justify-content: space-between;
 }
 .cro .musik-card {
-  width: 380px;
-  height: 420px;
-  border: 1px solid grey;
+  width: 280px;
+  height: 500px;
+  display: grid;
+  border: 1px solid green;
+  overflow-x: hidden;
   overflow-y: scroll;
-  box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
-.cro .music-header {
+.cro .musik-card .music-header {
   background: #333;
   color: #fff;
   padding: 10px;
   text-align: center;
 }
-.cro .music-content {
+.cro .musik-card .music-content {
+  height: 600px;
   overflow-y: scroll;
-}
-.cro .footer {
-  width: 100%;
+  padding: 10px;
 }
 
 .bio {
@@ -216,185 +234,60 @@ Footer .redes-sociales {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 1080px;
 }
 .bio h1 {
-  color: red;
+  font-weight: bold;
+  text-align: center;
 }
 .bio .biografia {
-  padding-left: 50px;
+  display: grid;
+  justify-content: space-between;
+  padding-left: 60px;
   padding-top: 150px;
-  display: flex;
+  grid-template-columns: 500px;
   width: 100%;
-  max-height: 1000px;
 }
 .bio .biografia h5 {
-  padding-bottom: 420px;
+  text-align: center;
   color: green;
 }
-.bio .biografia .barderosH5 {
-  color: gold;
-  padding-bottom: 200px;
+.bio .biografia .h5-homer {
+  padding-bottom: 360px;
+  font-weight: bold;
+}
+.bio .biografia .h5-cro {
+  padding-bottom: 520px;
+  font-weight: bold;
+}
+.bio .biografia .barderos-H5 {
+  color: white;
+  padding-bottom: 400px;
+  font-weight: bold;
 }
 .bio .biografia p.bardeross {
-  color: gold;
+  color: white;
+  font-weight: bold;
+}
+.bio .biografia .bio-yt {
+  display: grid;
+  align-items: end;
+  padding-top: 190px;
+  gap: 20px;
 }
 
-@media (max-width: 1024px) {
-  header {
-    width: 100%;
-    height: 140px;
-  }
-  .index {
-    width: 100%;
-  }
-  .footer {
-    width: 100%;
-    height: 150px;
-  }
-  .bardo {
-    padding-right: 250px;
-  }
-  .imginmortales {
-    width: 600px;
-    height: 300px;
-  }
-  .discografia {
-    display: grid;
-  }
-  .musik {
-    display: flex;
-    width: 100%;
-    height: 50px;
-  }
-  .homer {
-    width: 100%;
-  }
-  .cro {
-    width: 100%;
-  }
-  .bio {
-    width: 1024px;
-    margin: auto;
-  }
-  .disco-cro1 {
-    display: grid;
-    grid-template-columns: repeat(3);
-  }
-}
 @media (max-width: 768px) {
-  header {
-    width: 100%;
-  }
-  .bardo {
-    padding-left: 220px;
-  }
-  .imginmortales {
-    padding-right: 200px;
-    justify-content: center;
-    align-items: center;
-    width: 600px;
-    height: 200px;
-  }
-  .index {
-    width: 768px;
-  }
-  .discografia {
-    width: 768px;
-  }
   .musik {
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-  }
-  .homer {
-    width: 768px;
-  }
-  .cro {
-    width: 768px;
-  }
-  .bio {
-    width: 768px;
+    grid-template-columns: repeat(3, 100px);
+    justify-content: space-between;
   }
 }
 @media (max-width: 425px) {
-  header {
-    width: 100%;
-  }
-  main {
-    width: 100%;
-    align-items: center;
-  }
-  footer {
-    width: 100%;
-  }
-  .index {
-    width: 425px;
-  }
-  .bardo {
-    margin-left: 150px;
-  }
-  .imginmortales {
-    padding-right: 300px;
-    margin: auto;
-    margin-left: 70px;
-  }
-  .discografia {
-    width: 425px;
-  }
-  .musik {
-    margin: auto;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    height: 200px;
-  }
-  .homer {
-    width: 425px;
-  }
-  .cro {
-    width: 425px;
-  }
   .bio {
-    width: 425px;
+    width: 100%;
   }
-}
-@media (max-width: 320px) {
-  header {
-    width: 320px;
-    display: flex;
-    justify-content: space-evenly;
-  }
-  main {
-    width: 320px;
-    align-items: center;
-  }
-  footer {
-    width: 320px;
-  }
-  .index {
-    width: 320px;
-  }
-  .bardo {
-    margin: auto;
-    padding-right: 10px;
-  }
-  .imginmortales {
-    margin: auto;
-    padding-left: 10px;
-    padding-right: 270px;
-  }
-  .discografia {
-    width: 320px;
-  }
-  .homer {
-    width: 320px;
-  }
-  .cro {
-    width: 320px;
-  }
-  .bio {
-    width: 320px;
+  .bio .biografia {
+    grid-template-columns: 200px;
+    align-content: center;
   }
 }
 

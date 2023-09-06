@@ -5,37 +5,45 @@
     background-repeat: no-repeat;
     background-size:cover;
     width: 100%;   
+    h1{
+        font-weight: bold;
+        text-align: center;
+    }
     .musik-card {
-        width: 300px;
+        width: 270px;
         height: 500px;
         border: 1px solid grey;
         overflow: hidden;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        .music-header {
+            background: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .music-content {
+            height: 600px;
+            overflow-y: scroll;
+            padding: 10px;
+        }
     }
     .musik{
-        justify-content: space-between;
         display: grid;
+        justify-content: space-between;
+        grid-template-columns: repeat(2, 270px);
         .pure-drug{
             padding-left:20px;
-        }
-        grid-template-columns: repeat(3, 320px);
-        
+            }
     }
     .musik-2{
         display: grid;
-        grid-template-columns: repeat(2, 420px);
-        width: 420px;
-        padding-left: 270px;
+        grid-template-columns: repeat(1, 270px);
+        justify-content: center;
     }
-    .music-header {
-        background: #333;
-        color: #fff;
-        padding: 10px;
-        text-align: center;
+    .musik-3{
+        display: grid;
+        grid-template-columns: repeat(2, 270px);
+        justify-content: space-between;
     }
-    .music-content {
-        height: 600px;
-        overflow-y: scroll;
-        padding: 10px;
-    }
+
 }

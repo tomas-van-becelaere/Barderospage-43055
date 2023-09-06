@@ -1,27 +1,26 @@
 
     .index{
-        font-family: fuentebarderos;
+    font-family: fuentebarderos;
     background-image: url(https://i.postimg.cc/tJ8BX4gk/pag1.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     color: white;
-    }
-    
+        
     h1{
         text-align: center;
     }
     .bardo{
-        display: flex;
-        flex-direction: row-reverse;
-        padding-right: 300px;
+        display: grid;
+        justify-content: right;
     }
     .imginmortales{
         display: grid;
-        grid-template-columns: 200px;
-        gap: 48px;
-    }   
+        grid-template-rows: 300px;
+        justify-content: right;
+        align-items: end;
+    }  
+    } 
     .footer{
-        
         align-items: center;
         justify-content: center;
     }

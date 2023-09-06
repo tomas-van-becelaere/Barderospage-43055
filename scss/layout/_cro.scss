@@ -5,38 +5,53 @@
     background-repeat: no-repeat;
     background-size:cover;
     width: 100%;
+    h1{
+        font-weight: bold;
+        text-align: center;
+    }
     .discos-Cro1{
-        justify-content: space-evenly;
+        justify-content: space-between;
         display: grid;
-        grid-template-columns: repeat(3, 350px);
+        grid-template-columns: repeat(2, 270px);
     }
     .discos-Cro2{
         display: grid;
-        grid-template-columns: repeat(4, 300px);
-        justify-content: space-evenly;
+        grid-template-columns: repeat(2, 270px);
+        justify-content: space-between;
     }
     .discos-Cro3{
         display: grid;
-        grid-template-columns: repeat(3,350px);
-        justify-content: space-evenly;
+        grid-template-columns: repeat(2,270px);
+        justify-content: space-between;
+    }
+    .discos-Cro4{
+        display: grid;
+        grid-template-columns: repeat(2,270px);
+        justify-content: space-between;
+    }
+    .discos-Cro5{
+        display: grid;
+        grid-template-columns: repeat(2,280px);
+        justify-content: space-between;
     }
     .musik-card {
-        width: 380px;
-        height: 420px;
-        border: 1px solid grey;
-        overflow-y:scroll;
-        box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.2);
-    }
-    .music-header {
-        background: #333;
-        color: #fff;
-        padding: 10px;
-        text-align: center;
-    }
-    .music-content {
+        width: 280px;
+        height: 500px;
+        display: grid;
+        border: 1px solid green;
+        overflow-x: hidden;
         overflow-y: scroll;
-    }
-    .footer{
-        width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        .music-header {
+            background: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        .music-content {
+            height: 600px;
+            overflow-y: scroll;
+            padding: 10px;
+        }
     }
 }
