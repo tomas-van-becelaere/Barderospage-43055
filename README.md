@@ -25,5 +25,5 @@ Este proyecto surge desde el fanatismo y la admiracion hacia los artistas, Tomá
 - [@BarderospageGithub](https://github.com/tomas-van-becelaere/Barderospage-43055)
 - [@BarderospageVercel](https://vercel.com/tomyvanbecela-gmailcom/barderospage-43055)
 - [@SitioenVercel](https://barderospage-43055.vercel.app/)
-- [@Figma] (https://www.figma.com/file/TArN1KyAjphKZJsk6G0iQl/Proyect-Bardero%24-website?type=design&node-id=0%3A1&mode=design&t=987anEP1SEv1m0WE-1)
+- [@Figma](https://www.figma.com/file/TArN1KyAjphKZJsk6G0iQl/Proyect-Bardero%24-website?type=design&node-id=0%3A1&mode=design&t=987anEP1SEv1m0WE-1)
 
