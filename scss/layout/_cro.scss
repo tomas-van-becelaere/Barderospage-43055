@@ -10,46 +10,64 @@
         text-align: center;
     }
     .discos-Cro1{
-        justify-content: space-between;
         display: grid;
-        grid-template-columns: repeat(2, 270px);
+        grid-template-columns: 270px;
+        justify-content: left;
     }
     .discos-Cro2{
         display: grid;
-        grid-template-columns: repeat(2, 270px);
-        justify-content: space-between;
-    }
+        grid-template-columns: 270px;
+        justify-content: center;    }
     .discos-Cro3{
         display: grid;
-        grid-template-columns: repeat(2,270px);
-        justify-content: space-between;
-    }
+        grid-template-columns: 270px;
+        justify-content: right;    }
     .discos-Cro4{
         display: grid;
-        grid-template-columns: repeat(2,270px);
-        justify-content: space-between;
-    }
+        grid-template-columns: 270px;
+        justify-content: center;    }
     .discos-Cro5{
         display: grid;
-        grid-template-columns: repeat(2,300px);
-        justify-content: space-between;
-    }
-    .musik-card {
-        width: 300px;
-        height: 500px;
+        grid-template-columns: 270px;
+        justify-content: left;    }   
+    .discos-Cro6{
         display: grid;
-        border: 1px solid green;
-        overflow-x: hidden;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        .music-header {
-            background: #333;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
-        .music-content {
-            height: 600px;
-            padding: 10px;
+        grid-template-columns: 270px;
+        justify-content: center;
+    }
+    .discos-Cro7{
+        display: grid;
+        grid-template-columns: 270px;
+        justify-content: right;    }
+    .discos-Cro8{
+        display: grid;
+        grid-template-columns: 270px;
+        justify-content: center;    }
+    .discos-Cro9{
+        display: grid;
+        grid-template-columns: 270px;
+        justify-content: left;    }
+    .discos-Cro10{
+        display: grid;
+        grid-template-columns: 300px;
+        justify-content: center;
+        .musik-card {
+            width: 300px;
+            height: 500px;
+            display: grid;
+            border: 1px solid green;
+            overflow-x: hidden;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            .music-header {
+                background: #333;
+                color: #fff;
+                padding: 10px;
+                text-align: center;
+            }
+            .music-content {
+                height: 600px;
+                padding: 10px;
+            }
         }
     }
 }

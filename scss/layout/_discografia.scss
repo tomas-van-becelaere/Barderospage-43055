@@ -9,7 +9,30 @@
         font-weight: bold;
         text-align: center;
     }
+    }
+    .musik{
+        display: grid;
+        justify-content: right;
+        grid-template-columns: 270px;
+    }
+    .musik-2{
+        display: grid;
+        grid-template-columns: 270px;
+        justify-content: center;
+    }
+    .musik-3{
+        display: grid;
+        grid-template-columns: 270px;
+        justify-content: left;
+    }
+    .musik-4{
+        display: grid;
+        grid-template-columns: 270px;
+        justify-content: right;
+    }
     .musik-card {
+        display: grid;
+        justify-content: center;
         width: 300px;
         height: 500px;
         border: 1px solid grey;
@@ -25,24 +48,4 @@
             height: 600px;
             padding: 10px;
         }
-    }
-    .musik{
-        display: grid;
-        justify-content: space-between;
-        grid-template-columns: repeat(2, 270px);
-        .pure-drug{
-            padding-left:20px;
-            }
-    }
-    .musik-2{
-        display: grid;
-        grid-template-columns: repeat(1, 270px);
-        justify-content: center;
-    }
-    .musik-3{
-        display: grid;
-        grid-template-columns: repeat(2, 300px);
-        justify-content: space-between;
-    }
-
 }

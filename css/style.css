@@ -34,6 +34,12 @@
   justify-content: center;
 }
 
+.error-404 {
+  background-image: url(https://i.postimg.cc/JhhyfQZ0/error-404-word-with-binary-2213139.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 header {
   font-family: fuentebarderos;
   background-image: url(https://i.postimg.cc/Kc9z0gKB/Bardero-Bardero.gif);
@@ -44,6 +50,7 @@ header {
 
 .navbar {
   color: white;
+  list-style: none;
 }
 
 Footer {
@@ -78,40 +85,49 @@ Footer .redes-sociales {
   font-weight: bold;
   text-align: center;
 }
-.discografia .musik-card {
+
+.musik {
+  display: grid;
+  justify-content: right;
+  grid-template-columns: 270px;
+}
+
+.musik-2 {
+  display: grid;
+  grid-template-columns: 270px;
+  justify-content: center;
+}
+
+.musik-3 {
+  display: grid;
+  grid-template-columns: 270px;
+  justify-content: left;
+}
+
+.musik-4 {
+  display: grid;
+  grid-template-columns: 270px;
+  justify-content: right;
+}
+
+.musik-card {
+  display: grid;
+  justify-content: center;
   width: 300px;
   height: 500px;
   border: 1px solid grey;
   overflow-x: hidden;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
-.discografia .musik-card .music-header {
+.musik-card .music-header {
   background: #333;
   color: #fff;
   padding: 10px;
   text-align: center;
 }
-.discografia .musik-card .music-content {
+.musik-card .music-content {
   height: 600px;
   padding: 10px;
-}
-.discografia .musik {
-  display: grid;
-  justify-content: space-between;
-  grid-template-columns: repeat(2, 270px);
-}
-.discografia .musik .pure-drug {
-  padding-left: 20px;
-}
-.discografia .musik-2 {
-  display: grid;
-  grid-template-columns: repeat(1, 270px);
-  justify-content: center;
-}
-.discografia .musik-3 {
-  display: grid;
-  grid-template-columns: repeat(2, 300px);
-  justify-content: space-between;
 }
 
 .homer {
@@ -179,31 +195,56 @@ Footer .redes-sociales {
   text-align: center;
 }
 .cro .discos-Cro1 {
-  justify-content: space-between;
   display: grid;
-  grid-template-columns: repeat(2, 270px);
+  grid-template-columns: 270px;
+  justify-content: left;
 }
 .cro .discos-Cro2 {
   display: grid;
-  grid-template-columns: repeat(2, 270px);
-  justify-content: space-between;
+  grid-template-columns: 270px;
+  justify-content: center;
 }
 .cro .discos-Cro3 {
   display: grid;
-  grid-template-columns: repeat(2, 270px);
-  justify-content: space-between;
+  grid-template-columns: 270px;
+  justify-content: right;
 }
 .cro .discos-Cro4 {
   display: grid;
-  grid-template-columns: repeat(2, 270px);
-  justify-content: space-between;
+  grid-template-columns: 270px;
+  justify-content: center;
 }
 .cro .discos-Cro5 {
   display: grid;
-  grid-template-columns: repeat(2, 300px);
-  justify-content: space-between;
+  grid-template-columns: 270px;
+  justify-content: left;
 }
-.cro .musik-card {
+.cro .discos-Cro6 {
+  display: grid;
+  grid-template-columns: 270px;
+  justify-content: center;
+}
+.cro .discos-Cro7 {
+  display: grid;
+  grid-template-columns: 270px;
+  justify-content: right;
+}
+.cro .discos-Cro8 {
+  display: grid;
+  grid-template-columns: 270px;
+  justify-content: center;
+}
+.cro .discos-Cro9 {
+  display: grid;
+  grid-template-columns: 270px;
+  justify-content: left;
+}
+.cro .discos-Cro10 {
+  display: grid;
+  grid-template-columns: 300px;
+  justify-content: center;
+}
+.cro .discos-Cro10 .musik-card {
   width: 300px;
   height: 500px;
   display: grid;
@@ -211,13 +252,13 @@ Footer .redes-sociales {
   overflow-x: hidden;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
-.cro .musik-card .music-header {
+.cro .discos-Cro10 .musik-card .music-header {
   background: #333;
   color: #fff;
   padding: 10px;
   text-align: center;
 }
-.cro .musik-card .music-content {
+.cro .discos-Cro10 .musik-card .music-content {
   height: 600px;
   padding: 10px;
 }
@@ -270,10 +311,22 @@ Footer .redes-sociales {
   gap: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .musik {
-    grid-template-columns: repeat(3, 100px);
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 270px;
+  }
+  .musik-2 {
+    display: grid;
+    grid-template-columns: 270px;
+  }
+  .musik-3 {
+    display: grid;
+    grid-template-columns: 270px;
+  }
+  .musik-card {
+    display: grid;
+    grid-template-columns: 290px;
   }
 }
 @media (max-width: 425px) {
@@ -283,6 +336,24 @@ Footer .redes-sociales {
   .bio .biografia {
     grid-template-columns: 200px;
     align-content: center;
+  }
+}
+@media (max-width: 320px) {
+  .musik {
+    display: grid;
+    grid-template-columns: 270px;
+  }
+  .musik-2 {
+    display: grid;
+    grid-template-columns: 270px;
+  }
+  .musik-3 {
+    display: grid;
+    grid-template-columns: 270px;
+  }
+  .musik-card {
+    display: grid;
+    grid-template-columns: 290px;
   }
 }
 
